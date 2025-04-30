@@ -1,0 +1,263 @@
+#ifndef LOCALIZATION_H
+#define LOCALIZATION_H
+
+#include <string>
+
+// Default English language
+#if defined(PHILIPS_COFFEE_LANG_en_US)
+
+const std::string state_unknown = "PHILIPSEP2220_UNKNOWN";
+const std::string state_off = "PHILIPSEP2220_OFF";
+const std::string state_idle = "PHILIPSEP2220_READY";
+const std::string state_cleaning = "PHILIPSEP2220_CLEANING";
+const std::string state_preparing = "PHILIPSEP2220_PREPARING";
+const std::string state_water_empty = "PHILIPSEP2220_NOWATER";
+const std::string state_waste_warning = "PHILIPSEP2220_WASTEISFULL";
+const std::string state_error = "Error";
+const std::string state_internal_error = "Internal Error";
+
+const std::string state_ground_coffee_selected = "Pre-ground Coffee selected";
+const std::string state_coffee_programming_mode = "Coffee programming mode selected";
+const std::string state_coffee_selected = "Coffee selected";
+const std::string state_coffee_2x_selected = "2x Coffee selected";
+const std::string state_coffee_brewing = "Brewing Coffee";
+const std::string state_coffee_2x_brewing = "Brewing 2x Coffee";
+
+const std::string state_ground_espresso_selected = "Pre-ground Espresso selected";
+const std::string state_espresso_programming_mode = "Espresso programming mode selected";
+const std::string state_espresso_selected = "Espresso selected";
+const std::string state_espresso_2x_selected = "2x Espresso selected";
+const std::string state_espresso_brewing = "Brewing Espresso";
+const std::string state_espresso_2x_brewing = "Brewing 2x Espresso";
+
+const std::string state_ground_americano_selected = "Pre-ground Americano selected";
+const std::string state_americano_programming_mode = "Americano programming mode selected";
+const std::string state_americano_selected = "Americano selected";
+const std::string state_americano_2x_selected = "2x Americano selected";
+const std::string state_americano_brewing = "Brewing Americano";
+const std::string state_americano_2x_brewing = "Brewing 2x Americano";
+
+const std::string state_ground_cappuccino_selected = "Pre-ground Cappuccino selected";
+const std::string state_cappuccino_programming_mode = "Cappuccino programming mode selected";
+const std::string state_cappuccino_selected = "Cappuccino selected";
+const std::string state_cappuccino_brewing = "Brewing Cappuccino";
+
+const std::string state_ground_latte_selected = "Pre-ground Latte Macchiato selected";
+const std::string state_latte_programming_mode = "Latte Macchiato programming mode selected";
+const std::string state_latte_selected = "Latte Macchiato selected";
+const std::string state_latte_brewing = "Brewing Latte Macchiato";
+
+const std::string state_hot_water_programming_mode = "Hot water programming mode selected";
+const std::string state_hot_water_selected = "Hot water selected";
+const std::string state_hot_water_brewing = "Making Hot Water";
+
+const std::string state_steam_selected = "Steam selected";
+const std::string state_steam_brewing = "Making Steam";
+
+// German language
+#elif defined(PHILIPS_COFFEE_LANG_de_DE)
+
+const std::string state_unknown = "Unbekannt";
+const std::string state_off = "Aus";
+const std::string state_idle = "Bereit";
+const std::string state_cleaning = "Spült";
+const std::string state_preparing = "Vorbereitung";
+const std::string state_water_empty = "Wasser leer";
+const std::string state_waste_warning = "Abfallcontainerwarnung";
+const std::string state_error = "Fehler";
+const std::string state_internal_error = "Interner Fehler";
+
+const std::string state_ground_coffee_selected = "Vorgemahlener Kaffee ausgewählt";
+const std::string state_coffee_programming_mode = "Kaffee Programmiermodus ausgewählt";
+const std::string state_coffee_selected = "Kaffee ausgewählt";
+const std::string state_coffee_2x_selected = "2x Kaffee ausgewählt";
+const std::string state_coffee_brewing = "Bereitet Kaffee zu";
+const std::string state_coffee_2x_brewing = "Bereitet 2x Kaffee zu";
+
+const std::string state_ground_espresso_selected = "Vorgemahlener Espresso ausgewählt";
+const std::string state_espresso_programming_mode = "Espresso Programmiermodus ausgewählt";
+const std::string state_espresso_selected = "Espresso ausgewählt";
+const std::string state_espresso_2x_selected = "2x Espresso ausgewählt";
+const std::string state_espresso_brewing = "Bereitet Espresso zu";
+const std::string state_espresso_2x_brewing = "Bereitet 2x Espresso zu";
+
+const std::string state_ground_americano_selected = "Vorgemahlener Americano ausgewählt";
+const std::string state_americano_programming_mode = "Americano Programmiermodus ausgewählt";
+const std::string state_americano_selected = "Americano ausgewählt";
+const std::string state_americano_2x_selected = "2x Americano ausgewählt";
+const std::string state_americano_brewing = "Bereitet Americano zu";
+const std::string state_americano_2x_brewing = "Bereitet 2x Americano zu";
+
+const std::string state_ground_cappuccino_selected = "Vorgemahlener Cappuccino ausgewählt";
+const std::string state_cappuccino_programming_mode = "Cappuccino Programmiermodus ausgewählt";
+const std::string state_cappuccino_selected = "Cappuccino ausgewählt";
+const std::string state_cappuccino_brewing = "Bereitet Cappuccino zu";
+
+const std::string state_ground_latte_selected = "Vorgemahlener Latte macchiato ausgewählt";
+const std::string state_latte_programming_mode = "Latte macchiato Programmiermodus ausgewählt";
+const std::string state_latte_selected = "Latte macchiato ausgewählt";
+const std::string state_latte_brewing = "Bereitet Latte macchiato zu";
+
+const std::string state_hot_water_programming_mode = "Heißes Wasser Programmiermodus ausgewählt";
+const std::string state_hot_water_selected = "Heißes Wasser ausgewählt";
+const std::string state_hot_water_brewing = "Bereitet heißes Wasser zu";
+
+const std::string state_steam_selected = "Dampf ausgewählt";
+const std::string state_steam_brewing = "Bereitet Dampf zu";
+
+// Italian language
+#elif defined(PHILIPS_COFFEE_LANG_it_IT)
+
+const std::string state_unknown = "Sconosciuto";
+const std::string state_off = "Spento";
+const std::string state_idle = "In Attesa";
+const std::string state_cleaning = "Pulizia";
+const std::string state_preparing = "Preparazione";
+const std::string state_water_empty = "Serbatoio Acqua Vuoto";
+const std::string state_waste_warning = "Attenzione Contenitore Fondi Caffè";
+const std::string state_error = "Errore";
+const std::string state_internal_error = "Errore interno";
+
+const std::string state_ground_coffee_selected = "Selezionato Caffè Premacinato";
+const std::string state_coffee_programming_mode = "Selezionata Modalità programmazione Caffè";
+const std::string state_coffee_selected = "Selezionato Caffè";
+const std::string state_coffee_2x_selected = "Selezionati 2 Caffè";
+const std::string state_coffee_brewing = "Erogazione Caffè";
+const std::string state_coffee_2x_brewing = "Erogazione 2 Caffè";
+
+const std::string state_ground_espresso_selected = "Selezionate Espresso Premacinato";
+const std::string state_espresso_programming_mode = "Selezionata Modalità programmazione Espresso";
+const std::string state_espresso_selected = "Selezionato Espresso";
+const std::string state_espresso_2x_selected = "Selezionat1 2 Espressi";
+const std::string state_espresso_brewing = "Erogazione Espresso";
+const std::string state_espresso_2x_brewing = "Erogazione 2 Espressi";
+
+const std::string state_ground_americano_selected = "Selezionato Americano Premacinato";
+const std::string state_americano_programming_mode = "Selezionata Modalità programmazione Americano";
+const std::string state_americano_selected = "Selezionato Americano";
+const std::string state_americano_2x_selected = "Selezionati 2 Americani";
+const std::string state_americano_brewing = "Erogazione Americano";
+const std::string state_americano_2x_brewing = "Erogazione 2 Americani";
+
+const std::string state_ground_cappuccino_selected = "Selezionato Cappuccino Premacinato";
+const std::string state_cappuccino_programming_mode = "Selezionata Modalità programmazione Cappuccino";
+const std::string state_cappuccino_selected = "Selezionato Cappuccino";
+const std::string state_cappuccino_brewing = "Erogazione Cappuccino";
+
+const std::string state_ground_latte_selected = "Selezionato Latte Macchiato Premacinato";
+const std::string state_latte_programming_mode = "Selezionata Modalità programmazione Latte Macchiato";
+const std::string state_latte_selected = "Selezionato Latte Macchiato";
+const std::string state_latte_brewing = "Erogazione Latte Macchiato";
+
+const std::string state_hot_water_programming_mode = "Selezionata Modalità programmazione Acqua Calda";
+const std::string state_hot_water_selected = "Selezionata Acqua Calda";
+const std::string state_hot_water_brewing = "Erogazione Acqua Calda";
+
+const std::string state_steam_selected = "Vapore Selezionato";
+const std::string state_steam_brewing = "Erogazione Vapore";
+
+// Hungarian language
+#elif defined(PHILIPS_COFFEE_LANG_hu_HU)
+
+const std::string state_unknown = "Ismeretlen";
+const std::string state_off = "Kikapcsolva";
+const std::string state_idle = "Készenlét";
+const std::string state_cleaning = "Öblítés";
+const std::string state_preparing = "Előkészítés";
+const std::string state_water_empty = "Víztartály üres";
+const std::string state_waste_warning = "Zacctartály megtelt";
+const std::string state_error = "Hiba";
+const std::string state_internal_error = "Belső hiba";
+
+const std::string state_ground_coffee_selected = "Őrölt kávé kiválasztva";
+const std::string state_coffee_programming_mode = "Kávé programozási mód kiválasztva";
+const std::string state_coffee_selected = "Kávé kiválasztva";
+const std::string state_coffee_2x_selected = "2x kávé kiválasztva";
+const std::string state_coffee_brewing = "Kávé készítése";
+const std::string state_coffee_2x_brewing = "2x kávé készítése";
+
+const std::string state_ground_espresso_selected = "Őrölt eszpresszó kiválasztva";
+const std::string state_espresso_programming_mode = "Eszpresszó programozási mód kiválasztva";
+const std::string state_espresso_selected = "Eszpresszó kiválasztva";
+const std::string state_espresso_2x_selected = "2x eszpresszó kiválasztva";
+const std::string state_espresso_brewing = "Eszpresszó készítése";
+const std::string state_espresso_2x_brewing = "2x eszpresszó készítése";
+
+const std::string state_ground_americano_selected = "Őrölt americano kiválasztva";
+const std::string state_americano_programming_mode = "Americano programozási mód kiválasztva";
+const std::string state_americano_selected = "Americano kiválasztva";
+const std::string state_americano_2x_selected = "2x americano kiválasztva";
+const std::string state_americano_brewing = "Americano készítése";
+const std::string state_americano_2x_brewing = "2x americano készítése";
+
+const std::string state_ground_cappuccino_selected = "Őrölt cappuccino kiválasztva";
+const std::string state_cappuccino_programming_mode = "Cappuccino programozási mód kiválasztva";
+const std::string state_cappuccino_selected = "Cappuccino kiválasztva";
+const std::string state_cappuccino_brewing = "Cappuccino készítése";
+
+const std::string state_ground_latte_selected = "Őrölt latte macchiato kiválasztva";
+const std::string state_latte_programming_mode = "Latte macchiato programozási mód kiválasztva";
+const std::string state_latte_selected = "Latte macchiato kiválasztva";
+const std::string state_latte_brewing = "Latte macchiato készítése";
+
+const std::string state_hot_water_programming_mode = "Forró víz programozási mód kiválasztva";
+const std::string state_hot_water_selected = "Forró víz kiválasztva";
+const std::string state_hot_water_brewing = "Forró víz készítése";
+
+const std::string state_steam_selected = "Gőz kiválasztva";
+const std::string state_steam_brewing = "Gőz készítése";
+
+// Default to English if no language is specified
+#else
+
+const std::string state_unknown = "Unknown";
+const std::string state_off = "Off";
+const std::string state_idle = "Idle";
+const std::string state_cleaning = "Cleaning";
+const std::string state_preparing = "Preparing";
+const std::string state_water_empty = "Water empty";
+const std::string state_waste_warning = "Waste container warning";
+const std::string state_error = "Error";
+const std::string state_internal_error = "Internal Error";
+
+const std::string state_ground_coffee_selected = "Pre-ground Coffee selected";
+const std::string state_coffee_programming_mode = "Coffee programming mode selected";
+const std::string state_coffee_selected = "Coffee selected";
+const std::string state_coffee_2x_selected = "2x Coffee selected";
+const std::string state_coffee_brewing = "Brewing Coffee";
+const std::string state_coffee_2x_brewing = "Brewing 2x Coffee";
+
+const std::string state_ground_espresso_selected = "Pre-ground Espresso selected";
+const std::string state_espresso_programming_mode = "Espresso programming mode selected";
+const std::string state_espresso_selected = "Espresso selected";
+const std::string state_espresso_2x_selected = "2x Espresso selected";
+const std::string state_espresso_brewing = "Brewing Espresso";
+const std::string state_espresso_2x_brewing = "Brewing 2x Espresso";
+
+const std::string state_ground_americano_selected = "Pre-ground Americano selected";
+const std::string state_americano_programming_mode = "Americano programming mode selected";
+const std::string state_americano_selected = "Americano selected";
+const std::string state_americano_2x_selected = "2x Americano selected";
+const std::string state_americano_brewing = "Brewing Americano";
+const std::string state_americano_2x_brewing = "Brewing 2x Americano";
+
+const std::string state_ground_cappuccino_selected = "Pre-ground Cappuccino selected";
+const std::string state_cappuccino_programming_mode = "Cappuccino programming mode selected";
+const std::string state_cappuccino_selected = "Cappuccino selected";
+const std::string state_cappuccino_brewing = "Brewing Cappuccino";
+
+const std::string state_ground_latte_selected = "Pre-ground Latte Macchiato selected";
+const std::string state_latte_programming_mode = "Latte Macchiato programming mode selected";
+const std::string state_latte_selected = "Latte Macchiato selected";
+const std::string state_latte_brewing = "Brewing Latte Macchiato";
+
+const std::string state_hot_water_programming_mode = "Hot water programming mode selected";
+const std::string state_hot_water_selected = "Hot water selected";
+const std::string state_hot_water_brewing = "Making Hot Water";
+
+const std::string state_steam_selected = "Steam selected";
+const std::string state_steam_brewing = "Making Steam";
+
+#endif
+
+#endif // LOCALIZATION_H
